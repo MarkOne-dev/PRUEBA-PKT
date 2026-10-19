@@ -1,0 +1,5 @@
+# pkt-git ownership: the binary is an artifact; the snapshot is the source of truth.
+*.pkt binary
+snapshot/**/base.snapshot.xml text
+snapshot/**/*.json text
+snapshot/**/*.cfg text

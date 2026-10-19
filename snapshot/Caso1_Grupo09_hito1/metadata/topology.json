@@ -1,0 +1,973 @@
+{
+  "source_file": "Caso1_Grupo09_hito1.pkt",
+  "document_root": "PACKETTRACER5",
+  "total_devices": 56,
+  "total_links": 57,
+  "devices": [
+    {
+      "name": "Power Distribution Device0",
+      "type": "Power Distribution Device",
+      "model": "Power Distribution Device",
+      "ref": "save-ref-id:17080252071607757068"
+    },
+    {
+      "name": "ISP1",
+      "type": "Router",
+      "model": "2811",
+      "ref": "save-ref-id:17965506608177399979"
+    },
+    {
+      "name": "ISP2",
+      "type": "Router",
+      "model": "2811",
+      "ref": "save-ref-id:5300449771027875702"
+    },
+    {
+      "name": "ISP3",
+      "type": "Router",
+      "model": "2811",
+      "ref": "save-ref-id:3432732881951314382"
+    },
+    {
+      "name": "Switch8",
+      "type": "Switch",
+      "model": "2950T-24",
+      "ref": "save-ref-id:4193354980905947368"
+    },
+    {
+      "name": "DNS ISP",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:14619493091923714421"
+    },
+    {
+      "name": "Web Server ISP",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:11625762933991413600"
+    },
+    {
+      "name": "Router_Lima",
+      "type": "Router",
+      "model": "2911",
+      "ref": "save-ref-id:8583313821902714600"
+    },
+    {
+      "name": "SW1_LIMA",
+      "type": "Switch",
+      "model": "2960-24TT",
+      "ref": "save-ref-id:8067653307368705607"
+    },
+    {
+      "name": "SW2_LIMA",
+      "type": "Switch",
+      "model": "2960-24TT",
+      "ref": "save-ref-id:16733983331694793978"
+    },
+    {
+      "name": "SW3_LIMA",
+      "type": "Switch",
+      "model": "2960-24TT",
+      "ref": "save-ref-id:10432027553803166267"
+    },
+    {
+      "name": "AP1_LIMA",
+      "type": "AccessPoint",
+      "model": "AccessPoint-PT",
+      "ref": "save-ref-id:1198100353940490228"
+    },
+    {
+      "name": "Power Distribution Device1",
+      "type": "Power Distribution Device",
+      "model": "Power Distribution Device",
+      "ref": "save-ref-id:13126754612725015481"
+    },
+    {
+      "name": "AP2_LIMA",
+      "type": "AccessPoint",
+      "model": "AccessPoint-PT",
+      "ref": "save-ref-id:14000174799194179424"
+    },
+    {
+      "name": "WEB_LIMA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:10775362165507792678"
+    },
+    {
+      "name": "DNS_LIMA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:15965383724352065249"
+    },
+    {
+      "name": "Power Distribution Device2",
+      "type": "Power Distribution Device",
+      "model": "Power Distribution Device",
+      "ref": "save-ref-id:12369115486951346183"
+    },
+    {
+      "name": "FTP_LIMA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:15889624393742651429"
+    },
+    {
+      "name": "MAIL_LIMA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:862785523461195132"
+    },
+    {
+      "name": "DHCP_LIMA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:274821923261271042"
+    },
+    {
+      "name": "PC_VENTAS1",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:16345115671769033602"
+    },
+    {
+      "name": "PC_VENTAS2",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:4618807490687881229"
+    },
+    {
+      "name": "PC_ADMIN",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:18161858354566321913"
+    },
+    {
+      "name": "PC_MKTG",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:17511573553539677276"
+    },
+    {
+      "name": "Celular_Ejecutivo",
+      "type": "Pda",
+      "model": "SMARTPHONE-PT",
+      "ref": "save-ref-id:782343002240047290"
+    },
+    {
+      "name": "Laptop_Cliente",
+      "type": "Laptop",
+      "model": "Laptop-PT",
+      "ref": "save-ref-id:8745319959317866974"
+    },
+    {
+      "name": "PC_FINANZAS",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:13059311270506302912"
+    },
+    {
+      "name": "D1_LIMA",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:6970798354727076753"
+    },
+    {
+      "name": "D2_LIMA",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:13669671203622031037"
+    },
+    {
+      "name": "D3_LIMA",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:7607241615339092541"
+    },
+    {
+      "name": "Core_Lima",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:2623717497132489219"
+    },
+    {
+      "name": "PC_VENTAS3",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:7997142344970153089"
+    },
+    {
+      "name": "Laptop_Gestion",
+      "type": "Laptop",
+      "model": "Laptop-PT",
+      "ref": "save-ref-id:9354667396442831620"
+    },
+    {
+      "name": "Power Distribution Device3",
+      "type": "Power Distribution Device",
+      "model": "Power Distribution Device",
+      "ref": "save-ref-id:13178160089049879701"
+    },
+    {
+      "name": "ROUTER_ICA",
+      "type": "Router",
+      "model": "2911",
+      "ref": "save-ref-id:13472599878933224415"
+    },
+    {
+      "name": "CORE_ICA",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:1741771163039141636"
+    },
+    {
+      "name": "D1_ICA",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:8862363107279004175"
+    },
+    {
+      "name": "D2_ICA",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:1565281862707899992"
+    },
+    {
+      "name": "D3_ICA",
+      "type": "MultiLayerSwitch",
+      "model": "3650-24PS",
+      "ref": "save-ref-id:12393808952878426555"
+    },
+    {
+      "name": "SW_ACC_WIFI1_ICA",
+      "type": "AccessPoint",
+      "model": "AccessPoint-PT",
+      "ref": "save-ref-id:13466440651288256765"
+    },
+    {
+      "name": "SW_ACC_WIFI2_ICA",
+      "type": "AccessPoint",
+      "model": "AccessPoint-PT",
+      "ref": "save-ref-id:11453330697950943347"
+    },
+    {
+      "name": "PC1_VENTAS",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:14038979532920132611"
+    },
+    {
+      "name": "PC2_VENTAS",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:15527067711509223468"
+    },
+    {
+      "name": "PC3_VENTAS",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:13923817318338613719"
+    },
+    {
+      "name": "PC4_MKTG",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:17334095082454205321"
+    },
+    {
+      "name": "PC5_FINANZAS",
+      "type": "Pc",
+      "model": "PC-PT",
+      "ref": "save-ref-id:8865417832522415895"
+    },
+    {
+      "name": "CELULAR_EJEC_ICA",
+      "type": "Pda",
+      "model": "SMARTPHONE-PT",
+      "ref": "save-ref-id:1360444805018944913"
+    },
+    {
+      "name": "CELULAR_CLI_ICA",
+      "type": "Pda",
+      "model": "SMARTPHONE-PT",
+      "ref": "save-ref-id:1331683968922650260"
+    },
+    {
+      "name": "SRV_WEB_ICA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:4166201635282352212"
+    },
+    {
+      "name": "SRV_DNS_ICA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:6995821180652984281"
+    },
+    {
+      "name": "SRV_DHCP_ICA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:5600798277909585382"
+    },
+    {
+      "name": "SRV_FTP_ICA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:15549435300286740414"
+    },
+    {
+      "name": "SRV_MAIL_ICA",
+      "type": "Server",
+      "model": "Server-PT",
+      "ref": "save-ref-id:16094993254166186960"
+    },
+    {
+      "name": "SW_ACC1_ICA",
+      "type": "Switch",
+      "model": "2960-24TT",
+      "ref": "save-ref-id:12641446428546476599"
+    },
+    {
+      "name": "SW_ACC2_ICA",
+      "type": "Switch",
+      "model": "2960-24TT",
+      "ref": "save-ref-id:7021867455753118716"
+    },
+    {
+      "name": "SW_ACC3_ICA",
+      "type": "Switch",
+      "model": "2960-24TT",
+      "ref": "save-ref-id:15275499145025934636"
+    }
+  ],
+  "links": [
+    {
+      "link_type": "eSerial",
+      "from": {
+        "name": "ISP1",
+        "port": "Serial0/2/1"
+      },
+      "to": {
+        "name": "ISP2",
+        "port": "Serial0/2/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "ISP1",
+        "port": "FastEthernet0/0"
+      },
+      "to": {
+        "name": "ISP3",
+        "port": "FastEthernet0/0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "ISP2",
+        "port": "FastEthernet0/0"
+      },
+      "to": {
+        "name": "ISP3",
+        "port": "FastEthernet0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "ISP3",
+        "port": "FastEthernet1/0"
+      },
+      "to": {
+        "name": "Switch8",
+        "port": "FastEthernet0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "Switch8",
+        "port": "FastEthernet0/2"
+      },
+      "to": {
+        "name": "DNS ISP",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "Switch8",
+        "port": "FastEthernet0/3"
+      },
+      "to": {
+        "name": "Web Server ISP",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eSerial",
+      "from": {
+        "name": "Router_Lima",
+        "port": "Serial0/1/1"
+      },
+      "to": {
+        "name": "ISP2",
+        "port": "Serial0/2/0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "Router_Lima",
+        "port": "GigabitEthernet0/0"
+      },
+      "to": {
+        "name": "Core_Lima",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D1_LIMA",
+        "port": "GigabitEthernet1/0/11"
+      },
+      "to": {
+        "name": "AP1_LIMA",
+        "port": "Port 0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D1_LIMA",
+        "port": "GigabitEthernet1/0/12"
+      },
+      "to": {
+        "name": "AP2_LIMA",
+        "port": "Port 0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW1_LIMA",
+        "port": "FastEthernet0/1"
+      },
+      "to": {
+        "name": "PC_VENTAS1",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW2_LIMA",
+        "port": "FastEthernet0/1"
+      },
+      "to": {
+        "name": "PC_VENTAS2",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW3_LIMA",
+        "port": "FastEthernet0/1"
+      },
+      "to": {
+        "name": "PC_ADMIN",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW3_LIMA",
+        "port": "FastEthernet0/2"
+      },
+      "to": {
+        "name": "PC_MKTG",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW3_LIMA",
+        "port": "FastEthernet0/3"
+      },
+      "to": {
+        "name": "PC_FINANZAS",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "Core_Lima",
+        "port": "GigabitEthernet1/0/2"
+      },
+      "to": {
+        "name": "D1_LIMA",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "Core_Lima",
+        "port": "GigabitEthernet1/0/3"
+      },
+      "to": {
+        "name": "D2_LIMA",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_LIMA",
+        "port": "GigabitEthernet1/0/6"
+      },
+      "to": {
+        "name": "SW1_LIMA",
+        "port": "GigabitEthernet0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_LIMA",
+        "port": "GigabitEthernet1/0/7"
+      },
+      "to": {
+        "name": "SW2_LIMA",
+        "port": "GigabitEthernet0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_LIMA",
+        "port": "GigabitEthernet1/0/8"
+      },
+      "to": {
+        "name": "SW3_LIMA",
+        "port": "GigabitEthernet0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_LIMA",
+        "port": "GigabitEthernet1/0/15"
+      },
+      "to": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/7"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_LIMA",
+        "port": "GigabitEthernet1/0/2"
+      },
+      "to": {
+        "name": "WEB_LIMA",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_LIMA",
+        "port": "GigabitEthernet1/0/3"
+      },
+      "to": {
+        "name": "DNS_LIMA",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/2"
+      },
+      "to": {
+        "name": "DHCP_LIMA",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/3"
+      },
+      "to": {
+        "name": "FTP_LIMA",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/4"
+      },
+      "to": {
+        "name": "MAIL_LIMA",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW2_LIMA",
+        "port": "FastEthernet0/2"
+      },
+      "to": {
+        "name": "PC_VENTAS3",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/8"
+      },
+      "to": {
+        "name": "SW2_LIMA",
+        "port": "GigabitEthernet0/2"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/9"
+      },
+      "to": {
+        "name": "SW3_LIMA",
+        "port": "GigabitEthernet0/2"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "Core_Lima",
+        "port": "GigabitEthernet1/0/4"
+      },
+      "to": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_LIMA",
+        "port": "GigabitEthernet1/0/10"
+      },
+      "to": {
+        "name": "SW1_LIMA",
+        "port": "GigabitEthernet0/2"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "Laptop_Gestion",
+        "port": "FastEthernet0"
+      },
+      "to": {
+        "name": "SW3_LIMA",
+        "port": "FastEthernet0/4"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "ROUTER_ICA",
+        "port": "GigabitEthernet0/0"
+      },
+      "to": {
+        "name": "CORE_ICA",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "CORE_ICA",
+        "port": "GigabitEthernet1/0/2"
+      },
+      "to": {
+        "name": "D1_ICA",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "CORE_ICA",
+        "port": "GigabitEthernet1/0/3"
+      },
+      "to": {
+        "name": "D2_ICA",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "CORE_ICA",
+        "port": "GigabitEthernet1/0/4"
+      },
+      "to": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D1_ICA",
+        "port": "GigabitEthernet1/0/2"
+      },
+      "to": {
+        "name": "SW_ACC_WIFI1_ICA",
+        "port": "Port 0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D1_ICA",
+        "port": "GigabitEthernet1/0/3"
+      },
+      "to": {
+        "name": "SW_ACC_WIFI2_ICA",
+        "port": "Port 0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SRV_WEB_ICA",
+        "port": "FastEthernet0"
+      },
+      "to": {
+        "name": "D2_ICA",
+        "port": "GigabitEthernet1/0/5"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SRV_DNS_ICA",
+        "port": "FastEthernet0"
+      },
+      "to": {
+        "name": "D2_ICA",
+        "port": "GigabitEthernet1/0/6"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SRV_DHCP_ICA",
+        "port": "FastEthernet0"
+      },
+      "to": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/5"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SRV_FTP_ICA",
+        "port": "FastEthernet0"
+      },
+      "to": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/6"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SRV_MAIL_ICA",
+        "port": "FastEthernet0"
+      },
+      "to": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/7"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW_ACC1_ICA",
+        "port": "GigabitEthernet0/2"
+      },
+      "to": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/2"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_ICA",
+        "port": "GigabitEthernet1/0/3"
+      },
+      "to": {
+        "name": "SW_ACC2_ICA",
+        "port": "GigabitEthernet0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/3"
+      },
+      "to": {
+        "name": "SW_ACC2_ICA",
+        "port": "GigabitEthernet0/2"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_ICA",
+        "port": "GigabitEthernet1/0/4"
+      },
+      "to": {
+        "name": "SW_ACC3_ICA",
+        "port": "GigabitEthernet0/1"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/4"
+      },
+      "to": {
+        "name": "SW_ACC3_ICA",
+        "port": "GigabitEthernet0/2"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW_ACC1_ICA",
+        "port": "FastEthernet0/1"
+      },
+      "to": {
+        "name": "PC1_VENTAS",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW_ACC2_ICA",
+        "port": "FastEthernet0/1"
+      },
+      "to": {
+        "name": "PC2_VENTAS",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW_ACC3_ICA",
+        "port": "FastEthernet0/1"
+      },
+      "to": {
+        "name": "PC3_VENTAS",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW_ACC3_ICA",
+        "port": "FastEthernet0/2"
+      },
+      "to": {
+        "name": "PC4_MKTG",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW_ACC3_ICA",
+        "port": "FastEthernet0/3"
+      },
+      "to": {
+        "name": "PC5_FINANZAS",
+        "port": "FastEthernet0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "D2_ICA",
+        "port": "GigabitEthernet1/0/7"
+      },
+      "to": {
+        "name": "D3_ICA",
+        "port": "GigabitEthernet1/0/8"
+      }
+    },
+    {
+      "link_type": "eSerial",
+      "from": {
+        "name": "Router_Lima",
+        "port": "Serial0/2/0"
+      },
+      "to": {
+        "name": "ROUTER_ICA",
+        "port": "Serial0/3/0"
+      }
+    },
+    {
+      "link_type": "eSerial",
+      "from": {
+        "name": "ISP1",
+        "port": "Serial0/2/0"
+      },
+      "to": {
+        "name": "Router_Lima",
+        "port": "Serial0/1/0"
+      }
+    },
+    {
+      "link_type": "eCopper",
+      "from": {
+        "name": "SW_ACC1_ICA",
+        "port": "GigabitEthernet0/1"
+      },
+      "to": {
+        "name": "D2_ICA",
+        "port": "GigabitEthernet1/0/2"
+      }
+    }
+  ]
+}
